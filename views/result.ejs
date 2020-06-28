@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+   <style>
+       .container{
+           margin: auto;
+       }
+       .box{
+           background-color: blanchedalmond;
+           margin: 0 auto;
+           font-size: 30px;
+           width: max-content;
+           height: auto;
+           text-align: center;
+           border-top:5px solid black;
+           border-bottom: 5px solid black;
+           border-left: 5px dotted black;
+           border-right: 5px dotted black;
+        
+
+
+       }
+       p{
+        
+           padding: 20px;
+           line-height: 50px;
+        
+       }
+       p span{
+           font-weight: bold;
+           text-transform: capitalize;
+           border-bottom: 1px dotted black;
+       }
+       .sign{
+           display: flex;
+           justify-content: space-evenly;
+       }
+       .signs{
+           text-transform: capitalize;
+           padding-top: 0;
+           border-top: 1px dotted black;
+       }
+       .bloc{
+           display: block;
+       }
+       .nam{
+           padding: 0px;
+           line-height: 0;
+           text-transform: capitalize;
+       } 
+       img{
+           
+           margin-top: 10px;
+           height: 150px;
+       }   
+   </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <img src="logos.jpg" alt="logo">
+            <h1>Samriddhi College</h1>
+            <h2>Certificate of Appreciation</h2>
+            <p>This certificate is certified to Mr / Mrs<span> <%= name %></span>.<br><br>
+                for securing <span> <%= percent %></span> % percentage and<span> <%= division %></span> with&nbsp;&nbsp;<span><%= marks %></span>&nbsp;Marks.<br>
+                <p>Good luck for future..!</p>
+                <div class="sign">
+                    <div class="bloc">
+                        <p class="nam">Sandeep shrestha</p>
+                        <p class="signs">principal</p></div>
+                        <div class="bloc">
+                            <p class="nam">shyam</p>
+                    <p class="signs">Academic Director</p></div>
+
+                </div>
+                
+                
+            
+            </p>
+            </div>
+    </div>
+    
+</body>
+</html>
